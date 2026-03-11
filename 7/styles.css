@@ -1,3 +1,7 @@
+html {
+    font-size: 12pt;
+}
+
 body { 
     margin: 0;
     padding: 0;
@@ -11,12 +15,10 @@ body {
 }
 h2, p, div {
     background: red;
-
 }
 a, button, span, strong {
     background: lightblue;
 }
-
 .d1, .s1 {
     display:inline-block;
     border: 2px solid black;
@@ -26,4 +28,42 @@ a, button, span, strong {
     width:180px;
     height: 80px;
     margin-top: 80px;
+}
+.radius-box{
+    background: steelblue;
+    width:200px;
+    height: 200px;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    border-radius: 15%;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+.link {
+    text-decoration: none;
+    background: none;
+}
+h1 {
+    font-family: 3rem;
+}
+h2 { 
+    font-size: 2rem;
+
+}
+h3 {
+    font size: 1.5rem;
+}
+p{
+    font-size:1rem;
 }
