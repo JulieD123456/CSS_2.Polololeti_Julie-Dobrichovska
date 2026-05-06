@@ -33,5 +33,5 @@ li:nth-child(even) {
 .btn-demo:hover {
     background-color: aliceblue;
     transform: translate(-2px);
-    box-shadow: 0px 10px 20px rgba(red, green, blue, alpha);
+    box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
 }
