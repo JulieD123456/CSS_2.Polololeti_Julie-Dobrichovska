@@ -1,0 +1,32 @@
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}
+ 
+input[type="email"] {
+    border: 2px solid palevioletred;
+    padding: 10px;
+    border-radius: 8px;
+}
+ 
+input[type="email"]:focus{
+    border-color: crimson;
+    background-color: cornflowerblue;
+}
+ 
+input[type="email"]:invalid{
+    border-color: crimson;
+    background-color: cornflowerblue;
+}
+ 
+input[type="email"]:valid{
+    border-color: green;
+    background-color: rgb(237, 100, 230);
+}
